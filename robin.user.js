@@ -199,7 +199,7 @@
         setTimeout(function() {
             var oldVal = $(".text-counter-input").val();
 
-            $(".text-counter-input").val("[Robin-Grow] I automatically voted to grow, and so can you! http://redd.it/4cwk2s !").submit();
+            $(".text-counter-input").val("/vote grow").submit();
             $(".text-counter-input").val(oldVal);
 
         }, 10000);
